@@ -7,16 +7,18 @@
 <title>Login</title>
 </head>
 <body>
-	<form method="post" action="LoginCheck">
+	<form action="loginRegister" method="post">
 		<table
 			style="background-color: powderblue; margin-left: 20px; margin-left: 20px;">
 			<tr>
+				<td><h3>${message}</h3>
+					<h3>${successMessage}</h3></td>
 				<td><h3 style="color: purple">LOGIN PAGE</h3></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>User Name</td>
-				<td><input type="text" name="uname"></td>
+				<td><input type="text" name="username"></td>
 			</tr>
 			<tr>
 				<td>Password</td>

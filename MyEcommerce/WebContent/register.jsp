@@ -7,7 +7,7 @@
 <title>Register</title>
 </head>
 <body>
-	<form method="post" action="Register">
+	<form action="loginRegister" method="post">
 		<table
 			style="background-color: powderblue; margin-left: 20px; margin-left: 20px;">
 			<tr>
@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
 				<td>User Name</td>
-				<td><input type="text" name="uname"></td>
+				<td><input type="text" name="username"></td>
 			</tr>
 			<tr>
 				<td>Name</td>
@@ -32,7 +32,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" name="submit" value="Register"></td>
+				<td><input type="submit" name="submit" value="register"></td>
 				<td><a href="login.jsp">Login</a></td>
 			</tr>
 		</table>
