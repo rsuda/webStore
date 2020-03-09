@@ -28,7 +28,7 @@ public class loginRegister extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String userName = request.getParameter("username");
-		String password = request.getParameter("password");
+		String password = request.getParameter("password1");
 		//String password = request.getParameter("password");
 		String submit = request.getParameter("submit");
 		CustomerDAO cd = new CustomerDAOImpl();
